@@ -36,7 +36,7 @@ const Home = () => {
     </div>
  
 <section><h1 className="text-2xl font-bold mb-4 text-center text-black">FEATURED PRODUCT</h1>
-      <div className="grid-cols-1 md:grid-cols-4 gap-6 bg-white p-4 rounded-lg shadow flex flex-col items-center " >
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 bg-white p-4 rounded-lg shadow flex flex-col items-center " >
         <div className="text-center relative">
           
   <Image
@@ -102,7 +102,7 @@ const Home = () => {
   
       <section className="container mx-auto py-8 text-center">
         <h3 className="text-2xl font-bold mb-4 text-black">TOP CATOGRIES</h3>
-        <div className="grid-cols-1 md:grid-cols-4 gap-6 bg-white p-4 rounded-lg shadow flex flex-col items-center">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 bg-white p-4 rounded-lg shadow flex flex-col items-center">
         <div className="text-center relative">
    <Image
        src="/Pictures/Image-26.png"
